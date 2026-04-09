@@ -4,7 +4,6 @@ const AddNote = ({ handleAddNote }) => {
   const [noteText, setNoteText] = useState('');
   const inputRef = useRef(null);
 
-  // Focus the textarea on component mount
   useEffect(() => {
     inputRef.current.focus();
   }, []);
@@ -13,7 +12,7 @@ const AddNote = ({ handleAddNote }) => {
     if (noteText.trim().length > 0) {
       handleAddNote(noteText);
       setNoteText('');
-      inputRef.current.focus(); // Refocus after saving
+      inputRef.current.focus();
     }
   };
 

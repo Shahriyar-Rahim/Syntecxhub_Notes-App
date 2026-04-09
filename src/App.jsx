@@ -6,7 +6,7 @@ import AddNote from './Components/AddNote';
 import NotesList from './Components/NotesList';
 
 function App() {
-  // Load notes from localStorage on initial render
+  
   const [notes, setNotes] = useState(() => {
     const savedNotes = localStorage.getItem('fire-notes-data');
     return savedNotes ? JSON.parse(savedNotes) : [];
