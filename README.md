@@ -2,7 +2,7 @@
 
 A simple yet powerful notes application built with React and Vite. Create, edit, and delete your notes with persistent local storage. Perfect for quick note-taking and organizing your thoughts.
 <!-- A section for imageof the app -->
-![Image Preview](./public/screenshot.png).
+![Image Preview](./public/screenshot.png)
 ## ✨ Features
 
 - **Create Notes** - Add new notes with automatic timestamps
